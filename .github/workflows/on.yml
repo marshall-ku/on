@@ -2,6 +2,8 @@ name: Run test cases
 
 on:
     push:
+        branches:
+            - '**'
         tags-ignore:
             - '**'
     pull_request:
